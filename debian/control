@@ -1,12 +1,31 @@
 Source: zfs-tools
-Section: admin
-Priority: extra
 Maintainer: Manuel Amador (Rudd-O) <rudd-o@rudd-o.com>
-Build-Depends: debhelper (>= 7), python
-Standards-Version: 3.8.3
-Homepage: https://github.com/Rudd-O/zfs-tools
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
 
-Package: zfs-tools
+Package: python-zfs-tools
 Architecture: all
-Depends: ${misc:Depends}, ubuntu-zfs
-Description: A collection of tools for ZFS
+Depends: ${misc:Depends}, ${python:Depends}
+Description: ZFS synchronization and snapshotting tools
+ #ZFS tools
+ .
+ | Donate to support this free software |
+ |:------------------------------------:|
+ | <img width="164" height="164" title="" alt="" src="doc/bitcoin.png" /> |
+ | [1Cw9nZu9ygknussPofMWCzmSMveusTbQvN](bitcoin:1Cw9nZu9ygknussPofMWCzmSMveusTbQvN) |
+ .
+ The ZFS backup tools will help you graft an entire ZFS pool as a filesystem
+ into a backup machine, without having to screw around snapshot names or
+ complicated shell commands or crontabs.
+ .
+ The utilities let you do this:
+ .
+ 1. zfs-shell:  
+    a shell that allows remote ZFS administration and nothing more
+ .
+ 3. zsnap:  
+    a command that snapshots a dataset or pool, then deletes old snapshots
+ .
+ 4. zreplicate  
