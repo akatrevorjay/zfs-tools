@@ -1,14 +1,23 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zfs-tools
+Upstream-Contact: Manuel Amador <rudd-o@rudd-o.com>
+Source: https://github.com/Rudd-O/zfs-tools
+
+Files: *
+Copyright: 2012 Manuel Amador
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2013 Trevor Joynson
+License: GPL-3+
+
 This work was packaged for Debian by:
 
     Trevor Joynson <trevorj@skywww.net> on Wed, 23 Oct 2013 09:21:39 -0400
 
 It was downloaded from:
 
-    <https://github.com/Rudd-O/zfs-tools>
-
-Upstream Author(s):
-
-    Manuel Amador <rudd-o@rudd-o.com>
+    https://github.com/Rudd-O/zfs-tools
 
 Copyright:
 
