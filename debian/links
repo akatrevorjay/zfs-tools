@@ -1,0 +1,5 @@
+#/usr/share/zfs-tools/zreplicate /usr/bin/zreplicate
+#/usr/share/zfs-tools/zsnap /usr/bin/zsnap
+##/usr/share/zfs-tools/zmirror /usr/bin/zmirror
+#/usr/sahre/zfs-tools/zfs-shell /usr/bin/zfs-shell
+#/usr/share/zfs-tools/zfs-fetch-pool /usr/bin/zfs-fetch-pool

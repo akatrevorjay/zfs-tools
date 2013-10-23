@@ -5,5 +5,10 @@
 
 %:
 	dh $@ --with python2 --buildsystem=python_distutils
+	#dh $@ --with python2
+
+#override_dh_auto_install:
+#	python setup.py install --root=debian/zfs-tools --install-layout=deb --install-lib=/usr/share/zfs-tools --install-scripts=/usr/share/zfs-tools
+#override_dh_auto_build:
 
 
